@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+
+/* Navigation */
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.navigation {
+    display: flex;
+    background-color: #98CCD3;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation a {
+    color: #132238;
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.navigation a:hover {
+    color: #6998AB;
+}
+
+
+/* Introduction */
+
+.introduction {
+    background-color: #EBF0F6;
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+    margin: 105px 30px 30px;
+}
+
+.profile {
+    display: flex;
+    text-align: center;
+    flex: 100px;
+}
+
+.julia-img {
+    height: 515px;
+    width: auto;
+    padding: 30px;
+}
+
+.intro {
+    flex: 300px;
+    text-align: left;
+}
+
+h1.name {
+    font-family: 'Courgette', cursive;
+    color: #364E68;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3.personal {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #132238;
+    text-align: center;
+}
+
+h3.designer {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #132238;
+    text-align: center;
+    padding-top: 2%;
+}
+
+p.description {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #132238;
+    padding: 40px 20px;
+}
+
+
+/* Education */
+
+.education {
+    background-color: #EBF0F6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 30px 30px;
+}
+
+.studies {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #132238;
+    display: flex;
+    flex: 200;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.study-img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: auto;
+}
+
+
+/* Experience */
+
+.experience {
+    background-color: #F3F9FB;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.work {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #132238;
+    display: flex;
+    flex: 200px;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.work-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+
+/* Projects an Hobbies */
+
+.project-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 30px 0;
+}
+
+.projects {
+    background-color: #F3F9FB;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #132238;
+    flex: 200;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.project a {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #132238;
+}
+
+.artistic-img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    max-width: 100%;
+}
+
+.hobbies {
+    background-color: #EBF0F6;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #132238;
+    flex: 200;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2 {
+    color: #132238;
+    margin: 0px;
+}
+
+h3 {
+    color: #132238;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #132238;
+    margin: 0px 40px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #98CCD3;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    line-height: 2.5;
+    padding: 30px 0 20px;
+}
+
+.footer a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.footer a:hover {
+    color: darkgray;
+}
+
+.copyright {
+    color: dimgray;
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
