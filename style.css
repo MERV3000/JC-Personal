@@ -14,24 +14,25 @@ body {
     padding-right: 5px;
 }
 
-.navigation {
+nav {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: #98CCD3;
-    align-items: center;
-    justify-content: space-around;
-    position: fixed;
-    top: 0;
+    top: 0%;
     width: 100%;
 }
 
-.navigation a {
+nav a {
     color: #132238;
-    text-decoration: none;
     font-family: 'Merriweather Sans', sans-serif;
+    align-self: center;
+    text-decoration: none;
     font-size: 1rem;
+    padding: 1rem;
 }
 
-.navigation a:hover {
+a:hover {
     color: #6998AB;
 }
 
@@ -41,20 +42,13 @@ body {
 .introduction {
     background-color: #EBF0F6;
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
     text-align: center;
-    margin: 105px 30px 30px;
-}
-
-.profile {
-    display: flex;
-    text-align: center;
-    flex: 100px;
+    margin: 30px 0;
 }
 
 .julia-img {
     height: 515px;
-    width: auto;
     padding: 30px;
 }
 
@@ -68,6 +62,7 @@ h1.name {
     color: #364E68;
     font-size: 2.5rem;
     text-align: center;
+    padding-top: 3%;
 }
 
 h3.personal {
@@ -80,13 +75,13 @@ h3.designer {
     font-family: 'Merriweather Sans', sans-serif;
     color: #132238;
     text-align: center;
-    padding-top: 2%;
+    padding: 3%;
 }
 
 p.description {
     font-family: 'Merriweather Sans', sans-serif;
     color: #132238;
-    padding: 40px 20px;
+    padding: 10px 20px;
 }
 
 
@@ -95,27 +90,20 @@ p.description {
 .education {
     background-color: #EBF0F6;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px 30px 30px;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .studies {
     font-family: 'Merriweather Sans', sans-serif;
     color: #132238;
-    display: flex;
     flex: 200;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px;
+    padding: 40px 30px;
 }
 
 .study-img {
-    display: flex;
-    flex-wrap: wrap;
     height: 350px;
-    width: auto;
 }
 
 
@@ -124,26 +112,21 @@ p.description {
 .experience {
     background-color: #F3F9FB;
     display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
+    flex-flow: row wrap-reverse;
     align-items: center;
-    margin: 20px 30px;
+    margin: 20px 0px;
 }
 
 .work {
     font-family: 'Merriweather Sans', sans-serif;
     color: #132238;
-    display: flex;
     flex: 200px;
     text-align: center;
-    flex-direction: column;
     padding-top: 30px;
 }
 
 .work-img {
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
+    height: 350px;
 }
 
 
@@ -151,9 +134,8 @@ p.description {
 
 .project-hobbies {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 30px 30px 0;
+    flex-flow: row wrap;
+    margin: 20px 0;
 }
 
 .projects {
@@ -163,6 +145,7 @@ p.description {
     flex: 200;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .project a {
@@ -174,7 +157,7 @@ p.description {
     display: flex;
     flex-wrap: wrap;
     height: 400px;
-    max-width: 100%;
+    max-width: auto;
 }
 
 .hobbies {
@@ -184,6 +167,7 @@ p.description {
     flex: 200;
     text-align: center;
     padding-top: 40px;
+    padding-right: 30px;
 }
 
 h2 {
@@ -231,4 +215,23 @@ p {
     font-family: 'Merriweather Sans', sans-serif;
     letter-spacing: 1px;
     padding-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        justify-content: center;
+    }
+    .julia-img {
+        width: 300px;
+        height: 375px;
+    }
+    .study-img {
+        width: 375px;
+    }
+    .work-img {
+        width: 375px;
+    }
+    .artistic-img {
+        width: 375px;
+    }
 }
