@@ -222,17 +222,19 @@ p {
         justify-content: center;
     }
     .julia-img {
-        width: 300px;
-        height: 375px;
+        width: 85%;
+        height: auto;
     }
     .study-img {
-        width: 375px;
+        width: 100%;
+        height: auto;
     }
     .work-img {
-        width: 375px;
+        width: 100%;
+        height: auto;
     }
     .artistic-img {
-        width: 375px;
+        width: 125%;
     }
     .hobbies {
         padding-bottom: 30px;
