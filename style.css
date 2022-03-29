@@ -157,7 +157,6 @@ p.description {
     display: flex;
     flex-wrap: wrap;
     height: 400px;
-    max-width: auto;
 }
 
 .hobbies {
@@ -217,7 +216,7 @@ p {
     padding-top: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
     nav {
         justify-content: center;
     }
@@ -234,9 +233,13 @@ p {
         height: auto;
     }
     .artistic-img {
-        width: 125%;
+        width: 100%;
+        height: auto;
     }
     .hobbies {
         padding-bottom: 30px;
+    }
+    .work {
+        padding-bottom: 20px;
     }
 }
