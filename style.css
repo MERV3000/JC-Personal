@@ -1,31 +1,24 @@
 body {
     margin: 0;
     padding: 0;
-    list-style: none
+    list-style: none;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 
 /* Navigation */
-
-.logo {
-    width: 100px;
-    height: 100px;
-    padding-top: 5px;
-    padding-right: 5px;
-}
 
 nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #98CCD3;
-    top: 0%;
+    top: 0;
     width: 100%;
 }
 
 nav a {
     color: #132238;
-    font-family: 'Merriweather Sans', sans-serif;
     align-self: center;
     text-decoration: none;
     font-size: 1rem;
@@ -36,6 +29,31 @@ a:hover {
     color: #6998AB;
 }
 
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+    color: #132238;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
 
 /* Introduction */
 
@@ -43,7 +61,6 @@ a:hover {
     background-color: #EBF0F6;
     display: flex;
     flex-flow: row wrap;
-    text-align: center;
     margin: 30px 0;
 }
 
@@ -54,34 +71,24 @@ a:hover {
 
 .intro {
     flex: 300px;
-    text-align: left;
 }
 
-h1.name {
+.name {
     font-family: 'Courgette', cursive;
     color: #364E68;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 55px;
+    padding-bottom: 35px;
 }
 
-h3.personal {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #132238;
+.title {
     text-align: center;
+    padding-bottom: 20px;
 }
 
-h3.designer {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #132238;
-    text-align: center;
-    padding: 3%;
-}
-
-p.description {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #132238;
-    padding: 10px 20px;
+.description {
+    padding: 15px 50px 30px;
 }
 
 
@@ -96,10 +103,9 @@ p.description {
 }
 
 .studies {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #132238;
     flex: 200;
-    padding: 40px 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .study-img {
@@ -113,16 +119,14 @@ p.description {
     background-color: #F3F9FB;
     display: flex;
     flex-flow: row wrap-reverse;
-    align-items: center;
-    margin: 20px 0px;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .work {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #132238;
-    flex: 200px;
-    text-align: center;
-    padding-top: 30px;
+    flex: 200;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .work-img {
@@ -140,17 +144,9 @@ p.description {
 
 .projects {
     background-color: #F3F9FB;
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #132238;
     flex: 200;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
-}
-
-.project a {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #132238;
+    padding: 40px 20px 30px;
 }
 
 .artistic-img {
@@ -161,31 +157,9 @@ p.description {
 
 .hobbies {
     background-color: #EBF0F6;
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #132238;
     flex: 200;
     text-align: center;
-    padding-top: 40px;
-    padding-right: 30px;
-}
-
-h2 {
-    color: #132238;
-    margin: 0px;
-}
-
-h3 {
-    color: #132238;
-    margin: 0px;
-}
-
-p {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #132238;
-    margin: 0px 40px;
-    line-height: 25px;
-    letter-spacing: 2px;
-    padding-bottom: 20px;
+    padding: 40px 20px 30px;
 }
 
 
@@ -193,7 +167,6 @@ p {
 
 .footer {
     background-color: #98CCD3;
-    font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
     line-height: 2.5;
     padding: 30px 0 20px;
@@ -211,7 +184,6 @@ p {
 
 .copyright {
     color: dimgray;
-    font-family: 'Merriweather Sans', sans-serif;
     letter-spacing: 1px;
     padding-top: 10px;
 }
@@ -235,11 +207,5 @@ p {
     .artistic-img {
         width: 100%;
         height: auto;
-    }
-    .hobbies {
-        padding-bottom: 30px;
-    }
-    .work {
-        padding-bottom: 20px;
     }
 }
